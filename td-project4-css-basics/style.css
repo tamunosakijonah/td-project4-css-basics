@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: teal;
+    padding: 25px 100px;
+    text-transform: uppercase;      
+}
+
+.nav .logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 100px;
+
+}
+
+.nav-two ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0 100px;
+}
+.nav-two ul li{
+    padding-left: 60px;
+    
+}
+.nav-two ul li a{
+    color: white;
+    text-decoration: none;
+}
+.partOne{
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+.partOne img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.partOne h4{
+    color: teal;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.partOne p{
+    font-size: 18px;
+    padding: 3px;
+}
+
+.partTwo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+
+    
+}
+.partTwo h4{
+    color: rgb(190, 233, 233);
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 5px;
+    
+    margin-bottom: 20px;
+
+}
+.partTwo p{
+    color: aliceblue;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.one{
+    width: 40%;
+   margin-bottom: 20px;
+    padding: 17px;
+}
+.two{
+    width: 40%;
+    margin-top: 20px;
+    padding: 17px;
+    margin-bottom: 20px;
+}
+
+.partfour{
+    margin-left: 180px;
+    padding: 70px;
+    color: teal;
+    font-size: 25px;
+
+}
+
+.partThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 70px;
+    margin-left: 160px;
+    margin-right: 160px;
+    
+}
+.first{
+    background-color: rgb(66, 64, 64);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(226, 218, 218);
+    border-radius: 7px;
+}
+.second{
+    background-color: rgb(66, 64, 64);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(226, 218, 218);
+    border-radius: 7px;
+}
+.third{
+    background-color: rgb(66, 64, 64);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(226, 218, 218);
+    border-radius: 7px;
+}
+
+.partThree h4{
+    font-size: 24px;
+    padding: 15px;
+    margin: 15px;
+
+}
+.partThree p{
+    font-size: 17px;
+    padding: 15px;
+    margin: 17px;
+}
+footer{
+    font-size: 17px;
+    text-align: center;
+    background-color: teal;
+    color: rgb(231, 250, 250);
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+    
+
+}
